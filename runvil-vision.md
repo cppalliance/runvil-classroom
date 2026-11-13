@@ -62,7 +62,7 @@ Runvil is open source under the Boost Software License 1.0. The code lives in th
 Runvil is young. The prompt format is at version 0, and we change it freely while we learn what it needs.
 
 - **Working today:** prompts run end to end with sandboxed Lua, model roles, and tool loops. Agents can search and read the web, ask the user questions, and use remote MCP servers. Every run is recorded, and Workshop is the main Host built on it.
-- **Not built yet:** file-writing tools for agents are still stubs, subagents do not exist yet, local MCP servers are not supported, and plugin libraries written in C cannot install Packs yet. Replaying a recorded run has no user-facing driver.
+- **Not built yet:** file-writing tools for agents are still stubs, subagents do not exist yet, local MCP servers are not supported, and the Plugin API can read a run's files and cannot write or delete them yet. Replaying a recorded run has no user-facing driver.
 
 ## Where we are going
 
